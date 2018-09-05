@@ -1,0 +1,22 @@
+Started by user [8mha:////4PNbStswIwi6bFlA1/jOCaUqezyNExfmhhrnFtlO4nj1AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Checking out git https://github.com/Bltt/python-systemd-http-server into /var/jenkins_home/jobs/pyserver/workspace@script to read /Jenkinsfile
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Bltt/python-systemd-http-server # timeout=10
+Fetching upstream changes from https://github.com/Bltt/python-systemd-http-server
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Bltt/python-systemd-http-server +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 111d93a21e33613295d3980b104617596e1a1da2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 111d93a21e33613295d3980b104617596e1a1da2
+Commit message: "Create Jenkinsfile"
+ > git rev-list --no-walk 0ac54803c2432650b242fd5b506b95485f9d64d0 # timeout=10
+java.io.IOException: /Jenkinsfile is not inside /var/jenkins_home/jobs/pyserver/workspace@script
+	at org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition.create(CpsScmFlowDefinition.java:168)
+	at org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition.create(CpsScmFlowDefinition.java:67)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:303)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Finished: FAILURE

@@ -1,0 +1,3 @@
+[workspace] Running shell script
++ docker inspect -f . python:alpine
+You don't have either docker-client or docker-client-latest installed. Please install either one and retry.

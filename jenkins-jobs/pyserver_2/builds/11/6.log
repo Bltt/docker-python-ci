@@ -1,0 +1,8 @@
+ERROR: Failed to parse docker version. Please note there is a minimum docker version requirement of v1.7.
+Jenkins seems to be running inside container 8b064587ea85be3c4fd4ac76577de3757bb6ce71ca7acc757aa5847559dbdf36
+but /var/jenkins_home/jobs/pyserver_2/workspace could not be found among [You don't have either docker-client or docker-client-latest installed. Please install either one and retry.]
+but /var/jenkins_home/jobs/pyserver_2/workspace@tmp could not be found among [You don't have either docker-client or docker-client-latest installed. Please install either one and retry.]
+$ docker run -t -d -u 1000:1000 -w /var/jenkins_home/jobs/pyserver_2/workspace -v /var/jenkins_home/jobs/pyserver_2/workspace:/var/jenkins_home/jobs/pyserver_2/workspace:rw,z -v /var/jenkins_home/jobs/pyserver_2/workspace@tmp:/var/jenkins_home/jobs/pyserver_2/workspace@tmp:rw,z -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** python:3.5.1 cat
+$ docker top "You don't have either docker-client or docker-client-latest installed. Please install either one and retry." -eo pid,comm
+ERROR: The container started but didn't run the expected command. Please double check your ENTRYPOINT does execute the command passed as docker run argument, as required by official docker images (see https://github.com/docker-library/official-images#consistency for entrypoint consistency requirements).
+Alternatively you can force image entrypoint to be disabled by adding option `--entrypoint=''`.

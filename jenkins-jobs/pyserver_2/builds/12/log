@@ -1,0 +1,85 @@
+Started by user [8mha:////4B+7LK9ROaY2c2SlGjKpvCTESSroCdlQhpkVMY/mCgfyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4H0sFnIL028wqY4utIwb3AGiljzatlKPrOD9TYihAnn+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4Nb26FjSy8HX97/1TILw9Nv18nBWxRVhKbpIKLclRp6tAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/jobs/pyserver_2/workspace
+[8mha:////4H0sFnIL028wqY4utIwb3AGiljzatlKPrOD9TYihAnn+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4H0sFnIL028wqY4utIwb3AGiljzatlKPrOD9TYihAnn+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[workspace] Running shell script
++ docker inspect -f . python:alpine
+You don't have either docker-client or docker-client-latest installed. Please install either one and retry.
+[8mha:////4H0sFnIL028wqY4utIwb3AGiljzatlKPrOD9TYihAnn+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
+ERROR: Failed to parse docker version. Please note there is a minimum docker version requirement of v1.7.
+Jenkins seems to be running inside container 8b064587ea85be3c4fd4ac76577de3757bb6ce71ca7acc757aa5847559dbdf36
+but /var/jenkins_home/jobs/pyserver_2/workspace could not be found among [You don't have either docker-client or docker-client-latest installed. Please install either one and retry.]
+but /var/jenkins_home/jobs/pyserver_2/workspace@tmp could not be found among [You don't have either docker-client or docker-client-latest installed. Please install either one and retry.]
+$ docker run -t -d -u 1000:1000 -w /var/jenkins_home/jobs/pyserver_2/workspace -v /var/jenkins_home/jobs/pyserver_2/workspace:/var/jenkins_home/jobs/pyserver_2/workspace:rw,z -v /var/jenkins_home/jobs/pyserver_2/workspace@tmp:/var/jenkins_home/jobs/pyserver_2/workspace@tmp:rw,z -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** python:alpine cat
+$ docker top "You don't have either docker-client or docker-client-latest installed. Please install either one and retry." -eo pid,comm
+ERROR: The container started but didn't run the expected command. Please double check your ENTRYPOINT does execute the command passed as docker run argument, as required by official docker images (see https://github.com/docker-library/official-images#consistency for entrypoint consistency requirements).
+Alternatively you can force image entrypoint to be disabled by adding option `--entrypoint=''`.
+[8mha:////4H0sFnIL028wqY4utIwb3AGiljzatlKPrOD9TYihAnn+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4H0sFnIL028wqY4utIwb3AGiljzatlKPrOD9TYihAnn+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4H0sFnIL028wqY4utIwb3AGiljzatlKPrOD9TYihAnn+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4H0sFnIL028wqY4utIwb3AGiljzatlKPrOD9TYihAnn+AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+java.text.ParseException: Unparseable date: "ou don't have eithe"
+	at java.text.DateFormat.parse(DateFormat.java:366)
+	at org.jenkinsci.plugins.docker.workflow.client.DockerClient.getCreatedDate(DockerClient.java:233)
+	at org.jenkinsci.plugins.docker.workflow.client.DockerClient.getContainerRecord(DockerClient.java:342)
+	at org.jenkinsci.plugins.docker.workflow.WithContainerStep$Execution.start(WithContainerStep.java:194)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:229)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:153)
+	at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:122)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at com.cloudbees.groovy.cps.sandbox.DefaultInvoker.methodCall(DefaultInvoker.java:20)
+Caused: java.io.IOException: Error parsing created date 'ou don't have eithe' for object 'You don't have either docker-client or docker-client-latest installed. Please install either one and retry.'.
+	at org.jenkinsci.plugins.docker.workflow.client.DockerClient.getCreatedDate(DockerClient.java:235)
+	at org.jenkinsci.plugins.docker.workflow.client.DockerClient.getContainerRecord(DockerClient.java:342)
+	at org.jenkinsci.plugins.docker.workflow.WithContainerStep$Execution.start(WithContainerStep.java:194)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:229)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:153)
+	at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:122)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at com.cloudbees.groovy.cps.sandbox.DefaultInvoker.methodCall(DefaultInvoker.java:20)
+	at org.jenkinsci.plugins.docker.workflow.Docker$Image.inside(jar:file:/var/jenkins_home/plugins/docker-workflow/WEB-INF/lib/docker-workflow.jar!/org/jenkinsci/plugins/docker/workflow/Docker.groovy:135)
+	at org.jenkinsci.plugins.docker.workflow.Docker.node(jar:file:/var/jenkins_home/plugins/docker-workflow/WEB-INF/lib/docker-workflow.jar!/org/jenkinsci/plugins/docker/workflow/Docker.groovy:66)
+	at org.jenkinsci.plugins.docker.workflow.Docker$Image.inside(jar:file:/var/jenkins_home/plugins/docker-workflow/WEB-INF/lib/docker-workflow.jar!/org/jenkinsci/plugins/docker/workflow/Docker.groovy:123)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.DockerPipelineScript.runImage(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/agent/impl/DockerPipelineScript.groovy:57)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.AbstractDockerPipelineScript.configureRegistry(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/agent/impl/AbstractDockerPipelineScript.groovy:74)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.AbstractDockerPipelineScript.run(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/agent/impl/AbstractDockerPipelineScript.groovy:52)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.agent.CheckoutScript.checkoutAndRun(jar:file:/var/jenkins_home/plugins/pipeline-model-extensions/WEB-INF/lib/pipeline-model-extensions.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/agent/CheckoutScript.groovy:66)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.agent.CheckoutScript.doCheckout(jar:file:/var/jenkins_home/plugins/pipeline-model-extensions/WEB-INF/lib/pipeline-model-extensions.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/agent/CheckoutScript.groovy:42)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.LabelScript.run(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/agent/impl/LabelScript.groovy:44)
+	at ___cps.transform___(Native Method)
+	at com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:57)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:109)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:82)
+	at sun.reflect.GeneratedMethodAccessor140.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at com.cloudbees.groovy.cps.impl.ClosureBlock.eval(ClosureBlock.java:46)
+	at com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:122)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:261)
+	at com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:174)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:332)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$200(CpsThreadGroup.java:83)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:244)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:232)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:131)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Finished: FAILURE

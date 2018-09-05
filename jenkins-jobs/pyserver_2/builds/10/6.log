@@ -1,0 +1,3 @@
+[workspace] Running shell script
++ docker pull python:3.5.1
+/usr/bin/docker: 2: .: Can't open /etc/sysconfig/docker

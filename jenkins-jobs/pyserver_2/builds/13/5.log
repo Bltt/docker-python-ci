@@ -1,0 +1,3 @@
+[workspace] Running shell script
++ docker inspect -f . python:alpine
+/usr/bin/docker: 2: .: Can't open /etc/sysconfig/docker
