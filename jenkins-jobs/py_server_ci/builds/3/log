@@ -1,0 +1,27 @@
+Started by user [8mha:////4JxyPy+M0WYEyfE3FA5Xtoqu6n4w+s398R9zuenQHLLhAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Checking out git https://github.com/Bltt/python-systemd-http-server/ into /var/jenkins_home/jobs/test_pipe/workspace@script to read Jenkinsfile
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Bltt/python-systemd-http-server/ # timeout=10
+Fetching upstream changes from https://github.com/Bltt/python-systemd-http-server/
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Bltt/python-systemd-http-server/ +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0a7069dd5f9c6ac2f28df5c82c2ac4e91041c1b3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0a7069dd5f9c6ac2f28df5c82c2ac4e91041c1b3
+Commit message: "Update Jenkinsfile"
+ > git rev-list --no-walk a59e2168da47c8bd8707f619d78476f099ffa0d4 # timeout=10
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4At7/YDylXcXcs+MjwzM+cZ8HWoGQckJPIKwlLCMR5iZAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/jobs/test_pipe/workspace
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[workspace] Running shell script
++ docker run hello-world
+You don't have either docker-client or docker-client-latest installed. Please install either one and retry.
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

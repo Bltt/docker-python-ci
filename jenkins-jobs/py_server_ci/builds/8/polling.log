@@ -1,0 +1,14 @@
+Started on Sep 6, 2018 8:47:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision b8fbb608e5d801317ed3a62d131f418d33fb99ad (refs/remotes/origin/master)
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/Bltt/python-systemd-http-server/ # timeout=10
+Found 2 remote heads on https://github.com/Bltt/python-systemd-http-server/
+[poll] Latest remote head revision on refs/heads/master is: b8fbb608e5d801317ed3a62d131f418d33fb99ad - already built by 7
+Using strategy: Default
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/Bltt/python-systemd-http-server # timeout=10
+Found 2 remote heads on https://github.com/Bltt/python-systemd-http-server
+[poll] Latest remote head revision on refs/heads/master is: b8fbb608e5d801317ed3a62d131f418d33fb99ad
+Done. Took 2.2 sec
+Changes found

@@ -1,0 +1,69 @@
+Started by user [8mha:////4JxyPy+M0WYEyfE3FA5Xtoqu6n4w+s398R9zuenQHLLhAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Checking out git https://github.com/Bltt/python-systemd-http-server/ into /var/jenkins_home/jobs/test_pipe/workspace@script to read Jenkinsfile
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Bltt/python-systemd-http-server/ # timeout=10
+Fetching upstream changes from https://github.com/Bltt/python-systemd-http-server/
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Bltt/python-systemd-http-server/ +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0a6dc3171993285a796d6004861167e25f69cabe (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0a6dc3171993285a796d6004861167e25f69cabe
+Commit message: "docker update #1"
+ > git rev-list --no-walk 756256d834bf957d4d8b622e8d849b9d310d0c77 # timeout=10
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4At7/YDylXcXcs+MjwzM+cZ8HWoGQckJPIKwlLCMR5iZAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/jobs/test_pipe/workspace
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+Cloning the remote Git repository
+Cloning repository https://github.com/Bltt/python-systemd-http-server
+ > git init /var/jenkins_home/jobs/test_pipe/workspace # timeout=10
+Fetching upstream changes from https://github.com/Bltt/python-systemd-http-server
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Bltt/python-systemd-http-server +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Bltt/python-systemd-http-server # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Bltt/python-systemd-http-server # timeout=10
+Fetching upstream changes from https://github.com/Bltt/python-systemd-http-server
+ > git fetch --tags --progress https://github.com/Bltt/python-systemd-http-server +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0a6dc3171993285a796d6004861167e25f69cabe (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0a6dc3171993285a796d6004861167e25f69cabe
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 0a6dc3171993285a796d6004861167e25f69cabe
+Commit message: "docker update #1"
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[workspace] Running shell script
++ sudo docker-compose down --remove-orphans
+Removing network workspace_default
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[workspace] Running shell script
++ sudo docker-compose build
+Building python-http-server
+Step 1/4 : FROM python
+ ---> a9d071760c82
+Step 2/4 : COPY app.py /opt/python-http-server/app.py
+ ---> eca715426b8b
+Removing intermediate container b5be19ee8f46
+Step 3/4 : COPY public /opt/python-http-server/public
+ ---> c385df4474f9
+Removing intermediate container 029521eed50c
+Step 4/4 : ENTRYPOINT /opt/python-http-server/app.py
+ ---> Running in 7e58a887bd8a
+ ---> 6869124448ec
+Removing intermediate container 7e58a887bd8a
+Successfully built 6869124448ec
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[workspace] Running shell script
++ sudo docker-compose up -d
+Creating network "workspace_default" with the default driver
+Creating workspace_python-http-server_1 ... 
+[1A[2KCreating workspace_python-http-server_1 ... [32mdone[0m[1B[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4K+O8p7ehGWYvRrQzH8+K+gcAo20bzIWzeELS9+WHKONAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

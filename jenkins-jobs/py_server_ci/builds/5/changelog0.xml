@@ -1,0 +1,12 @@
+commit 0a6dc3171993285a796d6004861167e25f69cabe
+tree 34688d8f833d7874712adbca949a7ee29c183508
+parent 756256d834bf957d4d8b622e8d849b9d310d0c77
+author vagrant <vagrant@localhost.localdomain> 2018-09-06 08:38:04 +0000
+committer vagrant <vagrant@localhost.localdomain> 2018-09-06 08:38:04 +0000
+
+    docker update #1
+
+
+
+:100644 100644 90361339e0fbd6f3ce892b61403e6ea8cc5405fb 1f4fc0f5f5bda8b4db9fd9ee61092ef7aab58bb2 M	Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 f5144c61f7caedad31254afcb9f1d53450a26a15 A	docker-compose.yml

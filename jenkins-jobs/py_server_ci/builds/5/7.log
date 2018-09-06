@@ -1,0 +1,16 @@
+[workspace] Running shell script
++ sudo docker-compose build
+Building python-http-server
+Step 1/4 : FROM python
+ ---> a9d071760c82
+Step 2/4 : COPY app.py /opt/python-http-server/app.py
+ ---> eca715426b8b
+Removing intermediate container b5be19ee8f46
+Step 3/4 : COPY public /opt/python-http-server/public
+ ---> c385df4474f9
+Removing intermediate container 029521eed50c
+Step 4/4 : ENTRYPOINT /opt/python-http-server/app.py
+ ---> Running in 7e58a887bd8a
+ ---> 6869124448ec
+Removing intermediate container 7e58a887bd8a
+Successfully built 6869124448ec

@@ -1,0 +1,15 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Bltt/python-systemd-http-server # timeout=10
+Fetching upstream changes from https://github.com/Bltt/python-systemd-http-server
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Bltt/python-systemd-http-server +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b8fbb608e5d801317ed3a62d131f418d33fb99ad (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b8fbb608e5d801317ed3a62d131f418d33fb99ad
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master b8fbb608e5d801317ed3a62d131f418d33fb99ad
+Commit message: "Update index.html"

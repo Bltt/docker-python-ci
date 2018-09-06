@@ -1,0 +1,19 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/Bltt/python-systemd-http-server
+ > git init /var/jenkins_home/jobs/test_pipe/workspace # timeout=10
+Fetching upstream changes from https://github.com/Bltt/python-systemd-http-server
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Bltt/python-systemd-http-server +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Bltt/python-systemd-http-server # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Bltt/python-systemd-http-server # timeout=10
+Fetching upstream changes from https://github.com/Bltt/python-systemd-http-server
+ > git fetch --tags --progress https://github.com/Bltt/python-systemd-http-server +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0a6dc3171993285a796d6004861167e25f69cabe (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0a6dc3171993285a796d6004861167e25f69cabe
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 0a6dc3171993285a796d6004861167e25f69cabe
+Commit message: "docker update #1"

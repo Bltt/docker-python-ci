@@ -1,0 +1,5 @@
+[workspace] Running shell script
++ sudo docker-compose down --remove-orphans
+Stopping workspace_python-http-server_1 ... 
+[1A[2KStopping workspace_python-http-server_1 ... [32mdone[0m[1BRemoving workspace_python-http-server_1 ... 
+[1A[2KRemoving workspace_python-http-server_1 ... [32mdone[0m[1BRemoving network workspace_default

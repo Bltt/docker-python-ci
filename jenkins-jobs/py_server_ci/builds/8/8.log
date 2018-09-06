@@ -1,0 +1,5 @@
+[workspace] Running shell script
++ sudo docker-compose up -d
+Creating network "workspace_default" with the default driver
+Creating workspace_python-http-server_1 ... 
+[1A[2KCreating workspace_python-http-server_1 ... [32mdone[0m[1B
